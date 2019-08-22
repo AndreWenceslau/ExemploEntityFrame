@@ -23,6 +23,9 @@ namespace Exemplo00
         [Column("nome")]
         public string Nome { get; set; }
 
+        [Column("eae")]
+        public string Eae { get; set; }
+
 
 
     }
